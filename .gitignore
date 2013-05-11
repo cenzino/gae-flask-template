@@ -34,4 +34,7 @@ nosetests.xml
 .project
 .pydevproject
 
-gae-flask-template.sublime*
+*.sublime*
+
+# Don't store secret keys in version control
+secret_keys.py
